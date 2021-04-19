@@ -1,0 +1,86 @@
+/* css file for lab3. lets put in some effort */
+
+p b {
+  background: blanchedalmond;
+  size: 3pt;
+}
+
+section {
+  background: floralwhite;
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+  border: 2px solid;
+  padding: 0.5em;
+  margin: auto;
+  text-decoration: aliceblue;
+  text-align: left;
+  display: grid;
+  height: 2in;
+  width: 1000px;
+}
+
+.date {
+  position: static;
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+  text-align: center;
+}
+
+button:hover {
+  color: black;
+}
+
+h3.favorite {
+  border: 2px solid;
+  padding: 0.5em;
+  margin: auto;
+  text-decoration: aliceblue;
+}
+
+details > summary {
+  display: flexbox;
+  background: silver;
+}
+
+summary {
+  order: 5;
+}
+
+#truth {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+}
+
+li[class="tottenham"] {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+  color: darkblue;
+}
+
+li[class="sounders"] {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+  color: lawngreen;
+}
+
+li[class="seahawks"] {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+  color: silver;
+}
+
+p + div {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+}
+
+div ~ dd {
+  font-style: normal;
+  font-family: "Antonio", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
